@@ -7,7 +7,7 @@ A list of changes compared to the original `kickstart.nvim` (in this repo each c
  - [X] Remove the `which-key.nvim` plugin
  - [X] Remove unnecessary languages from the treesitter setup
  - [X] Set scrolloff to a something more then 0
- - [ ] Add a keymap to move the selected text up/down
+ - [X] Add a keymap to move the selected text up/down
  - [ ] Add a keymap to find and replace the current word
  - [ ] Get rid of `vim-sleuth` and replace it with tab indents where each tab is shown a 4 spaces on-screen
  - [ ] Add the undotree plugin
