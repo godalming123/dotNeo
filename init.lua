@@ -191,6 +191,9 @@ vim.keymap.set('n', 'j', "v:count == 0 ? 'gj' : 'j'", { expr = true, silent = tr
 vim.keymap.set({ "v", "n" }, "J", ":m'>+1<CR>gv=gv")
 vim.keymap.set({ "v", "n" }, "K", ":m'<-2<CR>gv=gv")
 
+-- [F]ind [R]eplace current word
+vim.keymap.set("n", "<leader>fr", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
+
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
 local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
