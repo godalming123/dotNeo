@@ -34,9 +34,6 @@ require('lazy').setup({
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
 
-  -- Detect tabstop and shiftwidth automatically
-  'tpope/vim-sleuth',
-
   -- NOTE: This is where your plugins related to LSP can be installed.
   --  The configuration is done below. Search for lspconfig to find it below.
   { -- LSP Configuration & Plugins
@@ -170,6 +167,11 @@ vim.wo.signcolumn = 'yes'
 vim.o.updatetime = 250
 vim.o.timeout = true
 vim.o.timeoutlen = 300
+
+-- Use tabs instead of spaces
+vim.o.shiftwidth = 4
+vim.o.tabstop = 4
+vim.o.expandtab = false
 
 -- Set completeopt to have a better completion experience
 vim.o.completeopt = 'menuone,noselect'
