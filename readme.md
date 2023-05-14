@@ -5,7 +5,7 @@ My neovim **dot**files with all of the new **neo** and as little of the old vim 
 A list of changes compared to the original `kickstart.nvim` (in this repo each commit will implement one of these changes)
  - [X] Remove the unnecessary comments
  - [X] Remove the `which-key.nvim` plugin
- - [ ] Remove unnecessary languages from the treesitter setup
+ - [X] Remove unnecessary languages from the treesitter setup
  - [ ] Set scrolloff to a something more then 0
  - [ ] Add a keymap to move the selected text up/down
  - [ ] Add a keymap to find and replace the current word
