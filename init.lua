@@ -136,6 +136,9 @@ require('lazy').setup({
 -- [[ Setting options ]]
 -- See `:help vim.o`
 
+-- Make sure that your their are always lines above and below the cursor
+vim.o.scrolloff = 5
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
