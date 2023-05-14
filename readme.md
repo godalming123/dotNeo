@@ -11,7 +11,7 @@ A list of changes compared to the original `kickstart.nvim` (in this repo each c
  - [X] Add a keymap to find and replace the current word
  - [X] Get rid of `vim-sleuth` and replace it with tab indents where each tab is shown a 4 spaces on-screen
  - [ ] Add the undotree plugin
- - [ ] Replace the custom LSP with `lsp-zero`
+ - [X] Replace the custom LSP with `lsp-zero`
  - [ ] Replace all of the spaces in the `init.lua` with tabs
 
 ## Dependencys
